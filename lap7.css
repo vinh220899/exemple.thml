@@ -1,0 +1,98 @@
+* {
+    font-family: Tahoma, arial;
+    font-size: 15px;    
+
+
+}
+
+body {
+    margin: 0 10%;
+}
+
+header {
+    height: 70px;
+    position: sticky;
+    background-color: pink;
+    top: 0;
+    position: fixed;
+    width: 80%;
+    height: 10%;
+    background-color: pink;
+
+
+}
+
+.logo {
+    display: inline-block;
+}
+
+.logo img {
+    width: 60px;
+    float: left;
+}
+
+.logo-text {
+    float: left;
+    margin: 20px 10px;
+}
+
+.menu {
+    float: right;
+}
+
+ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.slogan {
+    border: 2px solid black;
+    background: rgba(32, 127, 183, 0.55);
+    color: white;
+    margin-top: 7%;
+}
+
+.slogan p {
+    text-align: right;
+    margin-right: 15%;
+}
+
+h1 {
+    font-style: italic;
+}
+
+.article {
+    border: 1px dashed black;
+    border-radius: 10px;
+    width: 30%;
+    height: 250px;
+    display: inline-table;
+    margin: 9px;
+    padding: 5px;
+}
+
+.article img {
+    width: 70%
+}
+
+footer {
+    border: 2px solid black;
+    height: 30px;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    background: rgba(32, 127, 183, 0.55);
+}
+
+.back-to-top {
+    display: scroll;
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+}
+
+.back-to-top img {
+    width: 10%;
+    float: right;
+    padding: 10px;
+}

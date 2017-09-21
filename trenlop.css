@@ -1,0 +1,10 @@
+.wrapper {
+    width: 500px;
+    height: 300px;
+    background-color: red;
+}
+.inner{
+	border: 2px solid red;
+	border-style: groove;
+}
+.
